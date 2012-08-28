@@ -48,8 +48,6 @@ get_header(); // Loads the header.php template. ?>
 					<?php do_atomic( 'after_entry' ); // origin_after_entry ?>
 
 					<?php do_atomic( 'after_singular' ); // origin_after_singular ?>
-					
-					<?php comments_template( '/comments.php', true ); // Loads the comments.php template. ?>
 
 				<?php endwhile; ?>
 
